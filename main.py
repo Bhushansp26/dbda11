@@ -6,7 +6,7 @@ class arun(webapp2.RequestHandler):
         self.response.headers['Content-Type'] = 'text/plain'
         self.response.write('Hello All. Cloud Computing weclomes you')
 
-
+      print "Hello dbda"
 app = webapp2.WSGIApplication([
     ('/', arun),
 ], debug=True)
